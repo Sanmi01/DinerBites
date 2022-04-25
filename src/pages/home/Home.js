@@ -1,11 +1,12 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import "./Home.css"
 
 const Home = () => {
     return (
-        <div className="vh-100" id="home-page">
+        <Container className="vh-100 py-3 px-5" id="home-page">
             <h1>Home Page</h1>
-        </div>
+        </Container>
     )
 }
 

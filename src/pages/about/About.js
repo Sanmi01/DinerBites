@@ -1,11 +1,12 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import "./About.css"
 
 const About = () => {
     return (
-        <div className="vh-100" id="about-page">
+        <Container className="vh-100 py-3 px-5" id="about-page">
             <h1>About Page</h1>
-        </div>
+        </Container>
     )
 }
 
