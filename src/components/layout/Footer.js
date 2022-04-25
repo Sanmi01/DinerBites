@@ -14,7 +14,7 @@ const Footer = () => {
                 DinerBites
               </h5>
               <p>
-              When The Going Gets Tough, The Tough Get restaurant.
+              When The Going Gets Tough, The Tough Get Restaurant.
               </p>
             </div>
 
@@ -55,7 +55,7 @@ const Footer = () => {
 
         <div className="footer-copyright py-2 text-center">
           <div className="container-fluid">
-            © 2021 Copyright: SideHustle React 69
+            © 2022 Copyright: SideHustle React Team 69
           </div>
         </div>
       </footer>
