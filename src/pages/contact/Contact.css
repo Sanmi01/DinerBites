@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*utility class*/
+.py{
+    padding: 5rem 0;
+}
+.py1{
+    padding: 0.5rem 0;
+}
+.px{
+    padding: 0 1rem;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 70vh;
+    background: url("./images/egusi-soup2.jpg") no-repeat center
+    center/cover;
+}
+.header .header-txt{
+    height: 100%;
+    color: white;
+    text-align: center;
+    
+    font-weight: 700;
+    font-size: 56px;
+}
+.header .txt2 p{
+    text-align: center;
+    color: white; 
+}
+.txt{
+    height: 100%;
+    max-width: 60%;
+    margin: auto;
+}
+.sec1{
+    width: 100%;
+    height: 150vh;
+    
+}
+.sec1 .form{
+    width: 60%;
+    margin: auto;
+    background: rgb(227, 227, 250);
+    padding: 20px;
+}
+.form form h1{
+    text-align: center;
+}
+.sec1 .form form label{
+    display: block;
+    font-size: 24px;
+}
+input {
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+    border: none;
+}
+form .btn{
+    width: 100%;
+    height: 40px;
+    background:rgb(13, 13, 59); 
+}
+form a{
+    text-decoration: none;
+    height: 20px;
+    color: white;
+}
