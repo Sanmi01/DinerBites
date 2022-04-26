@@ -5,6 +5,8 @@ import Home from './pages/home/Home';
 import Products from './pages/products/Products';
 import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
+import Local from './pages/products/Local';
+import Foreign from './pages/products/Foreign';
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
             <Route path='/products' element={<Products />}/>
             <Route path='/contact' element={<Contact />}/>
             <Route path='/about' element={<About />}/>
+            <Route path='/local' element={<Local/>}/>
+            <Route path='/foreign' element={<Foreign/>} />
       </Routes>
       <Footer />
     </div>
