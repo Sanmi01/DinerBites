@@ -1,0 +1,10 @@
+#about-page a {
+    padding: 14px 20px 14px 35px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    margin-top: 15px;
+    background: #292929;
+    font-weight: 500;
+    text-decoration: none;
+}
