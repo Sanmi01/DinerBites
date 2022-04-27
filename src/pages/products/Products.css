@@ -1,0 +1,21 @@
+#products-page .Add-to-cart {
+    padding: 7px 10px 7px 10px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    margin-top: 15px;
+    background: #292929;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#products-page .incards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#products-page .cards {
+    height: 100%;
+}
