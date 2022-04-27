@@ -20,22 +20,22 @@ export const Contact = () => {
                        <p>Feel free to let us know your thought about us, your comments and suggestion will be appreciated as well for our improvement.</p>
                         <div className='name py1'>
                         <label>Name</label>
-                        <input type='text' placeholder='Enter name'className='px' ></input>
+                        <input type='text' placeholder='Enter name' className='px' />
                         </div>
                         <div className='email py1'>
                         <label>Email</label>
-                        <input type='text' placeholder='example@gmail.com'className='px'></input>
+                        <input type='text' placeholder='example@gmail.com' className='px' />
                         </div>
                         <div className='title py1'>
                         <label>Subject</label>
-                        <input type='text'placeholder='title of message'className='px'></input>
+                        <input type='text' placeholder='title of message' className='px' />
                         </div>
                         <div className='message py1'>
                         <label>Your message</label>
-                        <textarea placeholder='message in full'className='px'></textarea>
+                        <textarea placeholder='message in full' className='px'></textarea>
                         </div>
                         <div className='btn'>
-                        <a href='#'>Send</a>
+                        <a href='/'>Send</a>
                         </div>
                    </form>
                </div>

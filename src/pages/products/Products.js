@@ -29,7 +29,7 @@ const Products = () => {
 
     return (
         <Container className="py-3 px-5" id="products-page">
-            <h1>Products Page</h1>
+            <h1 className="text-center">Our Menu</h1>
             <div className="row p-3 align-items-center">
             {
           foods && foods.map((food)=>

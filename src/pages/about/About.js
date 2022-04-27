@@ -18,7 +18,7 @@ We’re here to serve you the best food around, whenever you’re looking for a 
                     <Link className="product-button" to="/products">Explore Our Menu</Link>
                 </div>
                 <div className="col-md-6 p-3">
-                    <img className="img-fluid" src={resImage} />
+                    <img className="img-fluid" src={resImage} alt="img" />
                 </div>
             </div>
         </Container>
